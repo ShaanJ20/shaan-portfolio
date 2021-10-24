@@ -4,6 +4,9 @@ import Blogscard from './Blogscard'
 import './CSS/home.css'
 import Projectscard from './Projectscard'
 
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 export default function Home() {
     return (
         <>
@@ -17,6 +20,15 @@ export default function Home() {
             <Aboutcard/>
             <Projectscard/>
             <Blogscard/>
+        </div>
+
+        <div className="footer">
+        <span className="twitericons">
+            <TwitterIcon></TwitterIcon>
+        </span>
+        <div className="githubicon">
+            <GitHubIcon></GitHubIcon>
+        </div>
         </div>
         </>
     )
