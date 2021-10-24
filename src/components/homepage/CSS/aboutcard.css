@@ -15,15 +15,16 @@
     
 }
 
-.btn.btn-primary{
+.about.btn.btn-primary{
     font-size:21px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     background-color: #549EF5;
     border: none;
+    margin-top: 22px;
 }
 
-.btn.btn-primary:hover{
+.about.btn.btn-primary:hover{
     background-color:#0038FF;
 }
 

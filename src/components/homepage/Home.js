@@ -1,5 +1,6 @@
 import React from 'react'
 import Aboutcard from './Aboutcard'
+import Blogscard from './Blogscard'
 import './CSS/home.css'
 import Projectscard from './Projectscard'
 
@@ -15,6 +16,7 @@ export default function Home() {
         <div className="card-component">
             <Aboutcard/>
             <Projectscard/>
+            <Blogscard/>
         </div>
         </>
     )
