@@ -1,4 +1,5 @@
 import React from 'react'
+import Aboutcard from './Aboutcard'
 import './CSS/home.css'
 
 export default function Home() {
@@ -10,7 +11,9 @@ export default function Home() {
             </div>
         </nav>
 
-        
+        <div className="card-component">
+            <Aboutcard/>
+        </div>
         </>
     )
 }
