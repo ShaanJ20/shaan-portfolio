@@ -1,6 +1,7 @@
 import React from 'react'
 import Aboutcard from './Aboutcard'
 import './CSS/home.css'
+import Projectscard from './Projectscard'
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
 
         <div className="card-component">
             <Aboutcard/>
+            <Projectscard/>
         </div>
         </>
     )
